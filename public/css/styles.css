@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: rgb(28, 31, 48);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    padding: 2rem;
+    color: white;
+}
+
+span {
+    color: rgb(39, 64, 208);
+}
+
+.box {
+    width: 500px;
+    background-color: rgb(21, 22, 28);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img {
+    margin-top: 2rem;
+}
+
+.ready-download {
+    color: white;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.link-valid {
+    color: white;
+    padding: 0rem 2rem 2rem 2rem;
+    font-size: medium;
+    font-weight: 500;
+    text-align: center;
+}
+
+.filename {
+    color: white;
+    text-align: center;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 2rem;
+    border: 2px dashed rgb(28, 31, 48);
+    width: 400px;
+    line-height: 100%;
+    font-family: Roboto Mono;
+    margin-bottom: 2rem;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.download-button {
+    background-color: rgb(28, 46, 149);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    transition: 0.2s;
+    outline: none;
+    border: none;
+}
+
+.download-button:hover {
+    background-color: rgb(19, 29, 88);
+}
+
+.file-input {
+    display: none;
+}
+
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.browse-btn {
+    color: rgb(39, 64, 208);
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    width: 100px;
+    text-align: center;
+}
+
+.submit-button {
+    background-color: rgb(28, 46, 149);
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    transition: 0.2s;
+    outline: none;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.submit-button:hover {
+    background-color: rgb(19, 29, 88);
+}

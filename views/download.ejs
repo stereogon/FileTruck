@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Download</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">File<span>Truck</span></h1>
+        <div class="box">
+            <img class="box-img" src="/img/logo.svg" alt="">
+            <h1 class="ready-download">Your File is Ready For Download</h1>
+            <h3 class="link-valid">The link expires in 24 hours</h3>
+            <p class="filename"><%= fileName %></p>
+            <div class="btn-container">
+                <a href="download/<%= uuid %>" class="download-button">Download</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FileTruck</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">File<span>Truck</span></h1>
+        <div class="box">
+            <img class="box-img" src="/img/logo.svg" alt="">
+            <h1 class="ready-download">Share file with a click</h1>
+            <form class="upload-form" action="api/files/" method="post" enctype="multipart/form-data">
+                <input class="file-input" type="file" name="myfile">
+                <p class="browse-btn">Browse</p>
+                <p class="filename"></p>
+                <button class="submit-button" type="submit">Upload</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
